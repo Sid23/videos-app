@@ -10,7 +10,7 @@ import YTSearch from 'youtube-api-search'
 import _ from 'lodash'
 
 // read from an environment variable the value of the key to acces YouTube APIs
-const API_KEY = 'AIzaSyBazDlyDls5ZRGvvksSzZ_azPni-Z08qAs';
+const API_KEY = '....';
 
 class App extends Component {
   constructor(props) {

@@ -7,7 +7,7 @@ const VideoItem = ({video, onVideoSelect}) => {
 
     return(
         // onVideoChange handler is defined in App.js
-        // onvideoSelect already has a parameter for this reason ()
+        // onvideoSelect use its own parameter (video) and we don't care about the event, which can be used as parameter, for this reason ()
         <li className="list-group-item" onClick={() => onVideoSelect(video)}>
             <div className="video-list-media">
                 <div className="media-left">
